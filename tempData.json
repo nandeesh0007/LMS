@@ -1,0 +1,755 @@
+{
+  "users": [
+    {
+      "id": "1772303993345",
+      "username": "nandeesh_07",
+      "email": "nandeeshnandu770@gmail.com",
+      "passwordHash": "$2a$12$dqa7lCXMhHM1ZrNAsz496.yxjiLp55/F8idxDtTNe6g98h5QEXm.6",
+      "enrolledCourses": [],
+      "progress": {},
+      "createdAt": "2026-02-28T18:39:53.345Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1772303900948",
+      "title": "Java Programming for Beginners",
+      "description": "Learn Java programming from scratch with hands-on examples and projects.",
+      "category": "Programming",
+      "level": "Beginner",
+      "thumbnail": "https://img.youtube.com/vi/eIrMbAQU34w/maxresdefault.jpg",
+      "totalDuration": "8 hours",
+      "sections": [
+        {
+          "title": "Introduction to Java",
+          "description": "Get started with Java programming basics and environment setup.",
+          "videoUrl": "https://www.youtube.com/watch?v=eIrMbAQU34w",
+          "duration": "45 min",
+          "order": 1
+        },
+        {
+          "title": "Variables and Data Types",
+          "description": "Understanding variables, data types, and type conversion in Java.",
+          "videoUrl": "https://www.youtube.com/watch?v=7CfbYx2kjyU",
+          "duration": "40 min",
+          "order": 2
+        },
+        {
+          "title": "Control Flow Statements",
+          "description": "Learn about if-else, switch, and loop statements in Java.",
+          "videoUrl": "https://www.youtube.com/watch?v=kjC1vjkqk0g",
+          "duration": "50 min",
+          "order": 3
+        },
+        {
+          "title": "Arrays and Strings",
+          "description": "Working with arrays and string manipulation in Java.",
+          "videoUrl": "https://www.youtube.com/watch?v=G1Q_7A_3M2c",
+          "duration": "45 min",
+          "order": 4
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "description": "Understanding classes, objects, inheritance, and polymorphism.",
+          "videoUrl": "https://www.youtube.com/watch?v=pSiI3ToJ1Bk",
+          "duration": "60 min",
+          "order": 5
+        },
+        {
+          "title": "Exception Handling",
+          "description": "Learn how to handle errors and exceptions in Java.",
+          "videoUrl": "https://www.youtube.com/watch?v=2l22_3J1o3E",
+          "duration": "35 min",
+          "order": 6
+        },
+        {
+          "title": "File I/O Operations",
+          "description": "Reading and writing files in Java.",
+          "videoUrl": "https://www.youtube.com/watch?v=8P7e-9Lia70",
+          "duration": "40 min",
+          "order": 7
+        },
+        {
+          "title": "Collections Framework",
+          "description": "Working with List, Set, and Map interfaces.",
+          "videoUrl": "https://www.youtube.com/watch?v=8Zniumd9JLQ",
+          "duration": "55 min",
+          "order": 8
+        },
+        {
+          "title": "Multithreading",
+          "description": "Introduction to concurrent programming in Java.",
+          "videoUrl": "https://www.youtube.com/watch?v=Y4-XA5JgQpM",
+          "duration": "50 min",
+          "order": 9
+        },
+        {
+          "title": "Lambda Expressions",
+          "description": "Functional programming concepts in Java 8+.",
+          "videoUrl": "https://www.youtube.com/watch?v=2j5NK9p7rOc",
+          "duration": "30 min",
+          "order": 10
+        }
+      ],
+      "enrolledStudents": [],
+      "createdAt": "2026-02-28T18:38:20.948Z"
+    },
+    {
+      "id": "1772303900951",
+      "title": "Python Programming Complete Course",
+      "description": "Master Python programming from basics to advanced concepts.",
+      "category": "Programming",
+      "level": "Beginner",
+      "thumbnail": "https://img.youtube.com/vi/rfscVS0vtbw/maxresdefault.jpg",
+      "totalDuration": "10 hours",
+      "sections": [
+        {
+          "title": "Python Introduction and Setup",
+          "description": "Getting started with Python and setting up development environment.",
+          "videoUrl": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+          "duration": "40 min",
+          "order": 1
+        },
+        {
+          "title": "Python Basics and Syntax",
+          "description": "Understanding Python syntax, variables, and basic operations.",
+          "videoUrl": "https://www.youtube.com/watch?v=Y8Tko2YC5hA",
+          "duration": "45 min",
+          "order": 2
+        },
+        {
+          "title": "Data Structures in Python",
+          "description": "Lists, tuples, dictionaries, and sets in Python.",
+          "videoUrl": "https://www.youtube.com/watch?v=8extk7x-1s0",
+          "duration": "50 min",
+          "order": 3
+        },
+        {
+          "title": "Control Flow and Functions",
+          "description": "Conditional statements, loops, and function definitions.",
+          "videoUrl": "https://www.youtube.com/watch?v=DZwmZ8Usvnk",
+          "duration": "55 min",
+          "order": 4
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "description": "Classes, objects, inheritance, and polymorphism in Python.",
+          "videoUrl": "https://www.youtube.com/watch?v=ZDa-Z5JzRgM",
+          "duration": "60 min",
+          "order": 5
+        },
+        {
+          "title": "File Handling and I/O",
+          "description": "Reading and writing files in Python.",
+          "videoUrl": "https://www.youtube.com/watch?v=Uh2ebFW8O8M",
+          "duration": "35 min",
+          "order": 6
+        },
+        {
+          "title": "Exception Handling",
+          "description": "Error handling and debugging techniques.",
+          "videoUrl": "https://www.youtube.com/watch?v=NIWwJbo-9_8",
+          "duration": "30 min",
+          "order": 7
+        },
+        {
+          "title": "Modules and Packages",
+          "description": "Working with Python modules and creating packages.",
+          "videoUrl": "https://www.youtube.com/watch?v=CqvZ3vGoGs0",
+          "duration": "40 min",
+          "order": 8
+        },
+        {
+          "title": "Web Development with Flask",
+          "description": "Building web applications using Flask framework.",
+          "videoUrl": "https://www.youtube.com/watch?v=Z1RdNhVxRzY",
+          "duration": "70 min",
+          "order": 9
+        },
+        {
+          "title": "Data Analysis with Pandas",
+          "description": "Introduction to data manipulation with Pandas.",
+          "videoUrl": "https://www.youtube.com/watch?v=vmEHCJofslg",
+          "duration": "65 min",
+          "order": 10
+        }
+      ],
+      "enrolledStudents": [],
+      "createdAt": "2026-02-28T18:38:20.951Z"
+    },
+    {
+      "id": "1772303900952",
+      "title": "Web Development with HTML & CSS",
+      "description": "Learn to build beautiful websites with HTML5 and CSS3.",
+      "category": "Web Development",
+      "level": "Beginner",
+      "thumbnail": "https://img.youtube.com/vi/mU6anWqZJjU/maxresdefault.jpg",
+      "totalDuration": "6 hours",
+      "sections": [
+        {
+          "title": "HTML5 Fundamentals",
+          "description": "Introduction to HTML5 and basic tags.",
+          "videoUrl": "https://www.youtube.com/watch?v=mU6anWqZJjU",
+          "duration": "45 min",
+          "order": 1
+        },
+        {
+          "title": "HTML Forms and Input",
+          "description": "Creating forms and handling user input.",
+          "videoUrl": "https://www.youtube.com/watch?v=f5F7gv4HE1k",
+          "duration": "40 min",
+          "order": 2
+        },
+        {
+          "title": "CSS3 Basics",
+          "description": "Introduction to CSS3 and styling basics.",
+          "videoUrl": "https://www.youtube.com/watch?v=yfoY53QXEnI",
+          "duration": "50 min",
+          "order": 3
+        },
+        {
+          "title": "CSS Layouts and Positioning",
+          "description": "Understanding CSS layouts, flexbox, and positioning.",
+          "videoUrl": "https://www.youtube.com/watch?v=k32VoKqKvRI",
+          "duration": "55 min",
+          "order": 4
+        },
+        {
+          "title": "Responsive Design",
+          "description": "Making websites responsive with media queries.",
+          "videoUrl": "https://www.youtube.com/watch?v=srvUrASNj0s",
+          "duration": "45 min",
+          "order": 5
+        },
+        {
+          "title": "CSS Grid Layout",
+          "description": "Advanced layout techniques with CSS Grid.",
+          "videoUrl": "https://www.youtube.com/watch?v=EOv8xHJJHOo",
+          "duration": "40 min",
+          "order": 6
+        },
+        {
+          "title": "CSS Animations and Transitions",
+          "description": "Adding animations and transitions to web pages.",
+          "videoUrl": "https://www.youtube.com/watch?v=LaSaypFQ85s",
+          "duration": "35 min",
+          "order": 7
+        },
+        {
+          "title": "Bootstrap Framework",
+          "description": "Building responsive layouts with Bootstrap.",
+          "videoUrl": "https://www.youtube.com/watch?v=F2mw9xv2bYI",
+          "duration": "50 min",
+          "order": 8
+        },
+        {
+          "title": "Building a Portfolio Website",
+          "description": "Create a complete portfolio website project.",
+          "videoUrl": "https://www.youtube.com/watch?v=IXJ_dzdwM8w",
+          "duration": "60 min",
+          "order": 9
+        }
+      ],
+      "enrolledStudents": [],
+      "createdAt": "2026-02-28T18:38:20.952Z"
+    },
+    {
+      "id": "1772303900955",
+      "title": "JavaScript Modern Development",
+      "description": "Master modern JavaScript with ES6+ features and frameworks.",
+      "category": "Web Development",
+      "level": "Intermediate",
+      "thumbnail": "https://img.youtube.com/vi/W6NZfCO5SIk/maxresdefault.jpg",
+      "totalDuration": "12 hours",
+      "sections": [
+        {
+          "title": "JavaScript ES6 Fundamentals",
+          "description": "Learn modern JavaScript syntax and features.",
+          "videoUrl": "https://www.youtube.com/watch?v=W6NZfCO5SIk",
+          "duration": "50 min",
+          "order": 1
+        },
+        {
+          "title": "Arrow Functions and Closures",
+          "description": "Understanding arrow functions and closure concepts.",
+          "videoUrl": "https://www.youtube.com/watch?v=n1vR2Dk2Gjw",
+          "duration": "45 min",
+          "order": 2
+        },
+        {
+          "title": "Async JavaScript and Promises",
+          "description": "Master asynchronous programming with promises.",
+          "videoUrl": "https://www.youtube.com/watch?v=Vkr0BfLduNs",
+          "duration": "60 min",
+          "order": 3
+        },
+        {
+          "title": "DOM Manipulation",
+          "description": "Interactive web page development with DOM.",
+          "videoUrl": "https://www.youtube.com/watch?v=2Ivo7F4Q9lY",
+          "duration": "55 min",
+          "order": 4
+        },
+        {
+          "title": "Event Handling",
+          "description": "Working with events and event listeners.",
+          "videoUrl": "https://www.youtube.com/watch?v=XVHrRnKQ_6Y",
+          "duration": "40 min",
+          "order": 5
+        },
+        {
+          "title": "Fetch API and AJAX",
+          "description": "Making HTTP requests and working with APIs.",
+          "videoUrl": "https://www.youtube.com/watch?v=cuEtnrL9-H0",
+          "duration": "50 min",
+          "order": 6
+        },
+        {
+          "title": "React Fundamentals",
+          "description": "Introduction to React and component-based development.",
+          "videoUrl": "https://www.youtube.com/watch?v=Ke90TjeitVS",
+          "duration": "70 min",
+          "order": 7
+        },
+        {
+          "title": "State Management",
+          "description": "Managing state in React applications.",
+          "videoUrl": "https://www.youtube.com/watch?v=QH1zvR2eG0g",
+          "duration": "65 min",
+          "order": 8
+        },
+        {
+          "title": "React Hooks",
+          "description": "Modern React development with hooks.",
+          "videoUrl": "https://www.youtube.com/watch?v=TNhaISOUy6Q",
+          "duration": "60 min",
+          "order": 9
+        },
+        {
+          "title": "Building a React App",
+          "description": "Complete React application project.",
+          "videoUrl": "https://www.youtube.com/watch?v=SqcY0GlETPk",
+          "duration": "80 min",
+          "order": 10
+        }
+      ],
+      "enrolledStudents": [],
+      "createdAt": "2026-02-28T18:38:20.955Z"
+    },
+    {
+      "id": "1772303900955",
+      "title": "React Native Mobile Development",
+      "description": "Build mobile apps for iOS and Android with React Native.",
+      "category": "Mobile Development",
+      "level": "Intermediate",
+      "thumbnail": "https://img.youtube.com/vi/0-S5a0e2ypw/maxresdefault.jpg",
+      "totalDuration": "10 hours",
+      "sections": [
+        {
+          "title": "React Native Introduction",
+          "description": "Getting started with React Native development.",
+          "videoUrl": "https://www.youtube.com/watch?v=0-S5a0e2ypw",
+          "duration": "45 min",
+          "order": 1
+        },
+        {
+          "title": "Setup and Environment",
+          "description": "Setting up React Native development environment.",
+          "videoUrl": "https://www.youtube.com/watch?v=qSR6d2v8_kI",
+          "duration": "50 min",
+          "order": 2
+        },
+        {
+          "title": "Components and Styling",
+          "description": "Creating and styling React Native components.",
+          "videoUrl": "https://www.youtube.com/watch?v=9fhMj4JjBqM",
+          "duration": "55 min",
+          "order": 3
+        },
+        {
+          "title": "Navigation",
+          "description": "Implementing navigation in React Native apps.",
+          "videoUrl": "https://www.youtube.com/watch?v=sR2K1tP7Z9k",
+          "duration": "60 min",
+          "order": 4
+        },
+        {
+          "title": "State and Props",
+          "description": "Managing state and passing props in React Native.",
+          "videoUrl": "https://www.youtube.com/watch?v=3xQJvnH8E8s",
+          "duration": "45 min",
+          "order": 5
+        },
+        {
+          "title": "Lists and ScrollView",
+          "description": "Working with lists and scrollable content.",
+          "videoUrl": "https://www.youtube.com/watch?v=CBT1R8oG1eM",
+          "duration": "40 min",
+          "order": 6
+        },
+        {
+          "title": "Handling User Input",
+          "description": "Forms and user input handling.",
+          "videoUrl": "https://www.youtube.com/watch?v=QkIcJ_n8bLc",
+          "duration": "50 min",
+          "order": 7
+        },
+        {
+          "title": "API Integration",
+          "description": "Connecting React Native apps to APIs.",
+          "videoUrl": "https://www.youtube.com/watch?v=OaI8-2GxqPA",
+          "duration": "55 min",
+          "order": 8
+        },
+        {
+          "title": "Device Features",
+          "description": "Accessing camera, GPS, and other device features.",
+          "videoUrl": "https://www.youtube.com/watch?v=6jFX8WjXQFw",
+          "duration": "60 min",
+          "order": 9
+        },
+        {
+          "title": "Publishing Apps",
+          "description": "Building and publishing React Native apps.",
+          "videoUrl": "https://www.youtube.com/watch?v=8kK0d1t4F9E",
+          "duration": "70 min",
+          "order": 10
+        }
+      ],
+      "enrolledStudents": [],
+      "createdAt": "2026-02-28T18:38:20.955Z"
+    },
+    {
+      "id": "1772303900956",
+      "title": "Node.js Backend Development",
+      "description": "Build scalable backend applications with Node.js and Express.",
+      "category": "Backend Development",
+      "level": "Intermediate",
+      "thumbnail": "https://img.youtube.com/vi/Oe421APjezM/maxresdefault.jpg",
+      "totalDuration": "11 hours",
+      "sections": [
+        {
+          "title": "Node.js Fundamentals",
+          "description": "Introduction to Node.js and event-driven programming.",
+          "videoUrl": "https://www.youtube.com/watch?v=Oe421APjezM",
+          "duration": "50 min",
+          "order": 1
+        },
+        {
+          "title": "NPM and Package Management",
+          "description": "Working with NPM and managing dependencies.",
+          "videoUrl": "https://www.youtube.com/watch?v=KGjR4JxJQqg",
+          "duration": "40 min",
+          "order": 2
+        },
+        {
+          "title": "Express.js Framework",
+          "description": "Building web applications with Express.",
+          "videoUrl": "https://www.youtube.com/watch?v=L72fhGm1tfE",
+          "duration": "55 min",
+          "order": 3
+        },
+        {
+          "title": "RESTful APIs",
+          "description": "Designing and building RESTful APIs.",
+          "videoUrl": "https://www.youtube.com/watch?v=S-ce1Bfj7WU",
+          "duration": "60 min",
+          "order": 4
+        },
+        {
+          "title": "Database Integration",
+          "description": "Connecting Node.js with MongoDB and SQL databases.",
+          "videoUrl": "https://www.youtube.com/watch?v=vKJpN5lE_aA",
+          "duration": "65 min",
+          "order": 5
+        },
+        {
+          "title": "Authentication and Security",
+          "description": "Implementing authentication and securing APIs.",
+          "videoUrl": "https://www.youtube.com/watch?v=6nsqP1u2YtE",
+          "duration": "70 min",
+          "order": 6
+        },
+        {
+          "title": "Middleware and Error Handling",
+          "description": "Creating middleware and handling errors.",
+          "videoUrl": "https://www.youtube.com/watch?v=fgTGADljAeg",
+          "duration": "45 min",
+          "order": 7
+        },
+        {
+          "title": "File Upload and Storage",
+          "description": "Handling file uploads and cloud storage.",
+          "videoUrl": "https://www.youtube.com/watch?v=m_yYzKx5ypg",
+          "duration": "50 min",
+          "order": 8
+        },
+        {
+          "title": "Real-time Applications",
+          "description": "Building real-time apps with Socket.io.",
+          "videoUrl": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+          "duration": "60 min",
+          "order": 9
+        },
+        {
+          "title": "Deployment and Scaling",
+          "description": "Deploying Node.js applications and scaling.",
+          "videoUrl": "https://www.youtube.com/watch?v=R5Xk2n2Gxjg",
+          "duration": "55 min",
+          "order": 10
+        }
+      ],
+      "enrolledStudents": [],
+      "createdAt": "2026-02-28T18:38:20.956Z"
+    },
+    {
+      "id": "1772303900957",
+      "title": "DevOps and Cloud Computing",
+      "description": "Learn DevOps practices and cloud deployment strategies.",
+      "category": "DevOps",
+      "level": "Advanced",
+      "thumbnail": "https://img.youtube.com/vi/3c-iBn72dEU/maxresdefault.jpg",
+      "totalDuration": "13 hours",
+      "sections": [
+        {
+          "title": "DevOps Introduction",
+          "description": "Understanding DevOps culture and practices.",
+          "videoUrl": "https://www.youtube.com/watch?v=3c-iBn72dEU",
+          "duration": "45 min",
+          "order": 1
+        },
+        {
+          "title": "Version Control with Git",
+          "description": "Advanced Git techniques and collaboration.",
+          "videoUrl": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+          "duration": "50 min",
+          "order": 2
+        },
+        {
+          "title": "CI/CD Pipelines",
+          "description": "Building continuous integration and deployment.",
+          "videoUrl": "https://www.youtube.com/watch?v=rdI9NQ6y5pQ",
+          "duration": "60 min",
+          "order": 3
+        },
+        {
+          "title": "Docker Fundamentals",
+          "description": "Containerization with Docker.",
+          "videoUrl": "https://www.youtube.com/watch?v=pTFZFxdM8OQ",
+          "duration": "70 min",
+          "order": 4
+        },
+        {
+          "title": "Kubernetes Basics",
+          "description": "Orchestration with Kubernetes.",
+          "videoUrl": "https://www.youtube.com/watch?v=X48VuDVWW0I",
+          "duration": "80 min",
+          "order": 5
+        },
+        {
+          "title": "AWS Cloud Services",
+          "description": "Working with Amazon Web Services.",
+          "videoUrl": "https://www.youtube.com/watch?v=gyS9Qp2hNqE",
+          "duration": "75 min",
+          "order": 6
+        },
+        {
+          "title": "Monitoring and Logging",
+          "description": "Application monitoring and logging strategies.",
+          "videoUrl": "https://www.youtube.com/watch?v=8nN_pE9k2I8",
+          "duration": "55 min",
+          "order": 7
+        },
+        {
+          "title": "Infrastructure as Code",
+          "description": "Terraform and infrastructure automation.",
+          "videoUrl": "https://www.youtube.com/watch?v=l5k1X9b5xJ8",
+          "duration": "65 min",
+          "order": 8
+        },
+        {
+          "title": "Security Best Practices",
+          "description": "Securing cloud infrastructure and applications.",
+          "videoUrl": "https://www.youtube.com/watch?v=7V3a_x6i7eE",
+          "duration": "60 min",
+          "order": 9
+        },
+        {
+          "title": "Performance Optimization",
+          "description": "Optimizing cloud applications for performance.",
+          "videoUrl": "https://www.youtube.com/watch?v=9hQF3v9S2dE",
+          "duration": "70 min",
+          "order": 10
+        }
+      ],
+      "enrolledStudents": [],
+      "createdAt": "2026-02-28T18:38:20.957Z"
+    },
+    {
+      "id": "1772303900958",
+      "title": "Blockchain Development",
+      "description": "Learn blockchain technology and cryptocurrency development.",
+      "category": "Blockchain",
+      "level": "Advanced",
+      "thumbnail": "https://img.youtube.com/vi/SSo_EIwHSd4/maxresdefault.jpg",
+      "totalDuration": "14 hours",
+      "sections": [
+        {
+          "title": "Blockchain Fundamentals",
+          "description": "Understanding blockchain technology and cryptography.",
+          "videoUrl": "https://www.youtube.com/watch?v=SSo_EIwHSd4",
+          "duration": "60 min",
+          "order": 1
+        },
+        {
+          "title": "Smart Contracts",
+          "description": "Introduction to smart contracts and Solidity.",
+          "videoUrl": "https://www.youtube.com/watch?v=IPAdwrK-6YQ",
+          "duration": "70 min",
+          "order": 2
+        },
+        {
+          "title": "Ethereum Development",
+          "description": "Building decentralized applications on Ethereum.",
+          "videoUrl": "https://www.youtube.com/watch?v=CoMxKGSv390",
+          "duration": "80 min",
+          "order": 3
+        },
+        {
+          "title": "Web3.js Integration",
+          "description": "Connecting web applications to blockchain.",
+          "videoUrl": "https://www.youtube.com/watch?v=gyMwXuJrbAQ",
+          "duration": "65 min",
+          "order": 4
+        },
+        {
+          "title": "DeFi Applications",
+          "description": "Building decentralized finance applications.",
+          "videoUrl": "https://www.youtube.com/watch?v=5J2m5JkCQ-A",
+          "duration": "75 min",
+          "order": 5
+        },
+        {
+          "title": "NFT Development",
+          "description": "Creating and trading NFTs.",
+          "videoUrl": "https://www.youtube.com/watch?v=Mq3hXJ2hF3U",
+          "duration": "70 min",
+          "order": 6
+        },
+        {
+          "title": "Token Economics",
+          "description": "Understanding tokenomics and token design.",
+          "videoUrl": "https://www.youtube.com/watch?v=5kC8k5J1h6g",
+          "duration": "60 min",
+          "order": 7
+        },
+        {
+          "title": "Security Audits",
+          "description": "Security best practices for smart contracts.",
+          "videoUrl": "https://www.youtube.com/watch?v=7K2Qx5l3L8g",
+          "duration": "55 min",
+          "order": 8
+        },
+        {
+          "title": "Layer 2 Solutions",
+          "description": "Understanding Layer 2 scaling solutions.",
+          "videoUrl": "https://www.youtube.com/watch?v=3m4K9J0M2pE",
+          "duration": "65 min",
+          "order": 9
+        },
+        {
+          "title": "Building a DApp",
+          "description": "Complete decentralized application project.",
+          "videoUrl": "https://www.youtube.com/watch?v=8mH2XJ2p3kQ",
+          "duration": "90 min",
+          "order": 10
+        }
+      ],
+      "enrolledStudents": [],
+      "createdAt": "2026-02-28T18:38:20.958Z"
+    },
+    {
+      "id": "1772303900959",
+      "title": "Cybersecurity Fundamentals",
+      "description": "Learn essential cybersecurity skills and ethical hacking.",
+      "category": "Security",
+      "level": "Intermediate",
+      "thumbnail": "https://img.youtube.com/vi/inWWhr5tnEA/maxresdefault.jpg",
+      "totalDuration": "12 hours",
+      "sections": [
+        {
+          "title": "Introduction to Cybersecurity",
+          "description": "Understanding cybersecurity landscape and threats.",
+          "videoUrl": "https://www.youtube.com/watch?v=inWWhr5tnEA",
+          "duration": "50 min",
+          "order": 1
+        },
+        {
+          "title": "Network Security",
+          "description": "Network protocols and security fundamentals.",
+          "videoUrl": "https://www.youtube.com/watch?v=3kQX8J2p5kE",
+          "duration": "60 min",
+          "order": 2
+        },
+        {
+          "title": "Cryptography Basics",
+          "description": "Understanding encryption and cryptographic principles.",
+          "videoUrl": "https://www.youtube.com/watch?v=9hQF3v9S2dE",
+          "duration": "55 min",
+          "order": 3
+        },
+        {
+          "title": "Web Application Security",
+          "description": "Common web vulnerabilities and prevention.",
+          "videoUrl": "https://www.youtube.com/watch?v=7K2Qx5l3L8g",
+          "duration": "65 min",
+          "order": 4
+        },
+        {
+          "title": "Ethical Hacking",
+          "description": "Introduction to ethical hacking and penetration testing.",
+          "videoUrl": "https://www.youtube.com/watch?v=5kC8k5J1h6g",
+          "duration": "70 min",
+          "order": 5
+        },
+        {
+          "title": "Security Tools",
+          "description": "Using cybersecurity tools and frameworks.",
+          "videoUrl": "https://www.youtube.com/watch?v=3m4K9J0M2pE",
+          "duration": "60 min",
+          "order": 6
+        },
+        {
+          "title": "Incident Response",
+          "description": "Handling security incidents and breaches.",
+          "videoUrl": "https://www.youtube.com/watch?v=8mH2XJ2p3kQ",
+          "duration": "55 min",
+          "order": 7
+        },
+        {
+          "title": "Compliance and Regulations",
+          "description": "Understanding security compliance frameworks.",
+          "videoUrl": "https://www.youtube.com/watch?v=2j5NK9p7rOc",
+          "duration": "50 min",
+          "order": 8
+        },
+        {
+          "title": "Security Architecture",
+          "description": "Designing secure systems and architectures.",
+          "videoUrl": "https://www.youtube.com/watch?v=gyMwXuJrbAQ",
+          "duration": "65 min",
+          "order": 9
+        },
+        {
+          "title": "Security Project",
+          "description": "Complete cybersecurity project.",
+          "videoUrl": "https://www.youtube.com/watch?v=5J2m5JkCQ-A",
+          "duration": "80 min",
+          "order": 10
+        }
+      ],
+      "enrolledStudents": [],
+      "createdAt": "2026-02-28T18:38:20.959Z"
+    }
+  ]
+}
