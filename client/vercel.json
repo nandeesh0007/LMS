@@ -1,0 +1,1 @@
+{"version": 2, "routes": [{"src": "/(.*)", "dest": "/index.html"}, {"src": "/api-test", "dest": "/index.html"}], "env": {"REACT_APP_API_URL": "https://learning-management-system-pdwin4848-nandeesh0007s-projects.vercel.app"}}

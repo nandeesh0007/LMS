@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://lms-backend.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
@@ -30,6 +30,11 @@ interface Section {
 export const courseService = {
   getAllCourses: async (): Promise<Course[]> => {
     const response = await api.get('/courses');
+    return response.data;
+  },
+
+  getPublicCourses: async (): Promise<Course[]> => {
+    const response = await api.get('/public-courses');
     return response.data;
   },
 

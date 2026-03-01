@@ -11,6 +11,26 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'client/build')));
 
+// Health check endpoint (no auth required)
+app.get('/health', (req, res) => {
+  res.json({ 
+    status: 'OK', 
+    message: 'LMS Backend is running',
+    timestamp: new Date().toISOString(),
+    environment: process.env.NODE_ENV || 'development'
+  });
+});
+
+// Public courses endpoint (no auth required)
+app.get('/api/public-courses', (req, res) => {
+  res.json({ 
+    status: 'OK', 
+    message: 'Public courses endpoint',
+    data: courses,
+    count: courses.length
+  });
+});
+
 // Simple in-memory database
 let users = [];
 

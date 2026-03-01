@@ -1,0 +1,12 @@
+services:
+  # React Frontend Service
+  - type: web
+  name: lms-frontend
+  env: static
+  buildCommand: npm run build
+  publishDir: build
+  healthCheckPath: /
+  autoDeploy: true
+  envVars:
+    - key: REACT_APP_API_URL
+      value: https://lms-backend.onrender.com

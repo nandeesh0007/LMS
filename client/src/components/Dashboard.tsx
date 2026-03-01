@@ -28,7 +28,8 @@ const Dashboard: React.FC = () => {
 
   const fetchCourses = async () => {
     try {
-      const allCourses = await courseService.getAllCourses();
+      // Try public courses first (no auth required)
+      const allCourses = await courseService.getPublicCourses();
       setCourses(allCourses);
     } catch (err) {
       console.error('Failed to fetch courses');

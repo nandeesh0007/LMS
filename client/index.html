@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LMS - Learning Management System</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+                'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+                sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 18px;
+        }
+        .error {
+            color: #e53e3e;
+            text-align: center;
+            padding: 20px;
+        }
+        .success {
+            color: #28a745;
+            text-align: center;
+            padding: 20px;
+        }
+        .course-list {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .course-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px 0;
+            background: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .course-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .course-description {
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .course-meta {
+            font-size: 14px;
+            color: #888;
+        }
+        .api-status {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 4px;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .status-ok { color: #28a745; }
+        .status-error { color: #dc3545; }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="loading">Loading LMS...</div>
+    </div>
+
+    <script>
+        // API Configuration
+        const API_URL = 'https://learning-management-system-pdwin4848-nandeesh0007s-projects.vercel.app/api';
+        
+        // Test API connection
+        async function testAPI() {
+            try {
+                const response = await fetch(API_URL + '/public-courses');
+                const data = await response.json();
+                
+                if (data.status === 'OK') {
+                    displayCourses(data.data);
+                } else {
+                    showError('API Error: ' + data.message);
+                }
+            } catch (error) {
+                showError('Connection Error: ' + error.message);
+            }
+        }
+        
+        function displayCourses(courses) {
+            const app = document.getElementById('app');
+            const courseList = courses.map(course => `
+                <div class="course-card">
+                    <h3 class="course-title">${course.title}</h3>
+                    <p class="course-description">${course.description}</p>
+                    <div class="course-meta">
+                        <strong>Category:</strong> ${course.category} | 
+                        <strong>Level:</strong> ${course.level} | 
+                        <strong>Duration:</strong> ${course.totalDuration} | 
+                        <strong>Sections:</strong> ${course.sections.length}
+                    </div>
+                </div>
+            `).join('');
+            
+            app.innerHTML = `
+                <div class="course-list">
+                    <h1>📚 Learning Management System</h1>
+                    <div class="api-status status-ok">
+                        ✅ Backend API Connected Successfully
+                    </div>
+                    ${courseList}
+                </div>
+            `;
+        }
+        
+        function showError(message) {
+            const app = document.getElementById('app');
+            app.innerHTML = `
+                <div class="error">
+                    <h2>❌ Error</h2>
+                    <p>${message}</p>
+                    <p><a href="https://client-fehufkt7v-nandeesh0007s-projects.vercel.app" target="_blank">🔄 Try React App</a></p>
+                    <p><a href="https://learning-management-system-pdwin4848-nandeesh0007s-projects.vercel.app/api/public-courses" target="_blank">🔗 View API Directly</a></p>
+                </div>
+            `;
+        }
+        
+        // Initialize
+        testAPI();
+    </script>
+</body>
+</html>

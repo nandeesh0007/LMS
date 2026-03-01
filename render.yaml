@@ -1,0 +1,14 @@
+services:
+  # Node.js Backend Service
+  - type: web
+    name: lms-backend
+    env: node
+    buildCommand: npm install
+    startCommand: node freshServer.js
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000

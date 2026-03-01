@@ -95,3 +95,5 @@ testAllVideos.js
 testCurrentVideos.js
 quickVideoTest.js
 testVideoPlayer.html
+
+.vercel
