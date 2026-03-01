@@ -4,7 +4,7 @@ services:
     name: lms-backend
     env: node
     buildCommand: npm install
-    startCommand: npm start
+    startCommand: node server-render.js
     healthCheckPath: /health
     autoDeploy: true
     envVars:
